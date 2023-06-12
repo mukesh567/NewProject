@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Customer Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Welcome to Our Shop!</h2>
+        <p>Thank you for choosing our products. We value your feedback.</p>
+        <div id="welcome-screen">
+            <button id="start-btn">Start Survey</button>
+        </div>
+        <div id="survey-screen" style="display: none;">
+            <div class="question">
+                <h3 id="question-number"></h3>
+                <p id="question-text"></p>
+            </div>
+            <div class="progress">
+                <span id="progress-text"></span>
+            </div>
+            <div class="btn-container">
+                <button id="prev-btn" class="btn btn1">Prev</button>
+                <button id="next-btn" class="btn btn2">Next</button>
+
+            </div>
+        </div>
+        <div id="thank-you-screen" class="thank-you">
+            <h2>Thank you for your time!</h2>
+            <p>We appreciate your feedback.</p>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
